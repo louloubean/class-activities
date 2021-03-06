@@ -16,9 +16,10 @@ nav {
     background-color: lightsalmon
     float: left
 }
-.main-content {
+.maincontent {
     width: 70%;
     float: left
+    padding: 40px;
 }
 .maindog {
     width: 250px
