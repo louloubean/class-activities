@@ -20,10 +20,16 @@
   text-align: center;
   height: 50px;
   /* Add the css property transition here! */
-
+transition: 0.3s;
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
+  background-color: navy;
+  transform: scale(2,4);
+  transform: rotate(40deg);
+  text-decoration: underline;
+  text-transform:capitalize;
+
 
 }
