@@ -7,6 +7,26 @@ footer {
   margin-top: 50px;
 }
 
-.card {
 
+
+.portfolio-item{ 
+  background-color:lightblue;
+  padding:20px;
+  border:thin solid #777777;
+}
+
+h2 {
+  text-align: center;
+  padding: 75px 100px;
+}
+
+.signUp {
+  margin: 35px auto;
+  background-color: #f2f2f2;
+  padding: 25px;
+  border-radius: 7px;
+}
+
+.col-sm-12 .card {
+  margin-bottom: 20px;
 }
