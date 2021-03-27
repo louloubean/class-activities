@@ -1,0 +1,12 @@
+#hero {
+    
+
+}
+
+#hero .jumbotron {
+    background-color: none;
+    background: url("../images/mountains.png");
+    background-repeat: no-repeat;
+    height: 75vh;
+    background-size: cover;
+}
