@@ -1,12 +1,97 @@
 #hero {
-    
-
-}
-
-#hero .jumbotron {
     background-color: none;
     background: url("../images/mountains.png");
     background-repeat: no-repeat;
     height: 75vh;
     background-size: cover;
+
+}
+
+.jumbotron {
+    display: flex;
+    background-color: transparent !important;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.jumbotron img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+#adventure h2 {
+    color: black;
+    font-size: 58px;
+    text-align: center;
+}
+
+#adventure h2 span {
+    color: #FF9900;
+    font-size: 37px;
+    display: block;
+}
+
+.book_your_flight {
+    background-image: url("../images/book_your_flight.png");
+    height: 500px;
+    padding: 50px 20px;
+    background-color: black;
+    
+    align-items: left;
+    flex-direction: column;
+}
+
+.book_your_flight h3, p{
+    color: white;
+}
+
+.book_your_flight img{
+    width: 45px;
+}
+
+.book_your_flight .btn-primary {
+    background-color: #FF9900;
+    border-color: #FF9900;
+}
+
+
+
+.make_a_reservation {
+    background-image: url("../images/make_a_reservation.png");
+    height: 500px;
+    padding: 50px 20px;
+    background-color: black;
+    
+    align-items: left;
+    flex-direction: column;
+}
+.make_a_reservation img {
+    width: 45px;
+}
+
+
+.make_a_reservation .btn-primary {
+    background-color: #FF9900;
+    border-color: #FF9900;
+}
+
+.plan_your_trip {
+    background-image: url("../images/plan_your_trip.png");
+    height: 500px;
+    padding: 50px 20px;
+    background-color: black;
+   
+    align-items: left;
+    flex-direction: column;
+}
+
+.plan_your_trip img {
+    width: 45px;
+}
+
+.plan_your_trip .btn-primary {
+    background-color: #FF9900;
+    border-color: #FF9900;
 }
